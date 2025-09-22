@@ -1,0 +1,24 @@
+site_name: SimpleApp Documentation
+site_url: https://jelangavin.github.io/jkrepository/
+site_description: Documentation for the SimpleApp project
+site_author: ELANGAVIN
+
+# Navigation (what shows in the sidebar / topbar)
+nav:
+  - Home: index.md
+  - Guide: guide.md
+  - About: about.md
+
+# Theme
+theme:
+  name: mkdocs
+  highlightjs: true
+  nav_style: light
+
+# Markdown extensions
+markdown_extensions:
+  - toc:
+      permalink: true
+  - tables
+  - fenced_code
+
